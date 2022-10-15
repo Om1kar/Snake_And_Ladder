@@ -39,7 +39,7 @@ public class SnakeAndLadderGame {
             }
         }
         System.out.println();
-        if (StartingPosition != 100)
+        if (StartingPosition == 100)
             System.out.println("--------------------------------------------------------------------");
             System.out.println("Player Won The Game");
     }
