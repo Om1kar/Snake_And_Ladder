@@ -9,7 +9,7 @@ public class SnakeAndLadderGame {
         int StartingPosition = 0;
         System.out.println("Welcome to Snake And Ladder Game");
         System.out.println("Current position is= " + START);
-        while (StartingPosition <= 100) {
+        while (StartingPosition != 100) {
 
             int RollDice = (int) Math.floor(Math.random() * 10) % 6 + 1;
             System.out.println("player rolls a dice= " + RollDice);
